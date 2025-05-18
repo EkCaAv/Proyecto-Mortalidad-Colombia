@@ -56,7 +56,7 @@ try:
     geojson_cargado_ok = True
     print("Archivo GeoJSON cargado exitosamente.")
 except FileNotFoundError:
-    print(f"ADVERTENCIA: Archivo GeoJSON '{geojson_file_path}' no encontrado.")
+    print(f"ADVERTENCIA: Archivo GeoJSON '{geojson_file_path}' no encontrado.")           
 except json.JSONDecodeError:
     print(f"ADVERTENCIA: Error al decodificar GeoJSON en '{geojson_file_path}'.")
 except Exception as e:
