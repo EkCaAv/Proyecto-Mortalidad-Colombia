@@ -6,7 +6,7 @@ import pandas as pd
 import json
 import os
 
-from data_processing import (
+from .data_processing import (
     cargar_datos_mortalidad, cargar_codigos_muerte, cargar_divipola,
     preparar_datos_mapa, preparar_datos_linea_tiempo, preparar_datos_ciudades_violentas,
     preparar_datos_menor_mortalidad, preparar_datos_causas_muerte,
@@ -56,7 +56,7 @@ try:
     geojson_cargado_ok = True
     print("Archivo GeoJSON cargado exitosamente.")
 except FileNotFoundError:
-    print(f"ADVERTENCIA: Archivo GeoJSON '{geojson_file_path}' no encontrado.")
+    print(f"ADVERTENCIA: Archivo GeoJSON '{geojson_file_path}' no encontrado.")           
 except json.JSONDecodeError:
     print(f"ADVERTENCIA: Error al decodificar GeoJSON en '{geojson_file_path}'.")
 except Exception as e:
