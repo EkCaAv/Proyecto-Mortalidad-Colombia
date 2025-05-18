@@ -70,37 +70,37 @@ La aplicación presenta los siguientes elementos visuales, cada uno diseñado pa
 #### Mapa: Distribución de Muertes por Departamento
 *   **Propósito:** Visualizar geográficamente qué departamentos concentran el mayor y menor número de muertes, utilizando una escala de color para representar la magnitud.
 *   **Interacción:** El usuario puede pasar el mouse sobre cada departamento para ver su nombre y el total de muertes. El mapa permite zoom y pan para una exploración detallada.
-    ![Mapa de Mortalidad por Departamento](https://raw.githubusercontent.com/EkCaAv/Proyecto-Mortalidad-Colombia/develop/assets/images/mapa_distribucion_departamento.png) 
+    ![Mapa de Mortalidad por Departamento](https://github.com/EkCaAv/Proyecto-Mortalidad-Colombia/blob/main/assets/mapa.png) 
 
 #### Gráfico de Líneas: Muertes por Mes
 *   **Propósito:** Identificar patrones estacionales o tendencias en la mortalidad total a lo largo del año 2019.
 *   **Interacción:** Al pasar el mouse sobre los puntos de datos, se muestra el mes y el total de muertes correspondiente.
-    ![Gráfico de Líneas de Muertes por Mes](https://raw.githubusercontent.com/EkCaAv/Proyecto-Mortalidad-Colombia/develop/assets/images/total_muertes_mes.png)
+    ![Gráfico de Líneas de Muertes por Mes](https://github.com/EkCaAv/Proyecto-Mortalidad-Colombia/blob/main/assets/Total-muertes-mes.png)
 
 #### Gráfico de Barras: Top 5 Ciudades Más Violentas
 *   **Propósito:** Destacar las cinco ciudades que registraron el mayor número de homicidios, según los códigos CIE-10 X93, X94 y X95 (agresiones con armas de fuego).
 *   **Interacción:** El detalle del total de homicidios y el nombre completo de la ciudad (y su departamento) se visualiza al pasar el mouse sobre cada barra.
-    ![Top 5 Ciudades con Más Homicidios](https://raw.githubusercontent.com/EkCaAv/Proyecto-Mortalidad-Colombia/develop/assets/images/top_5_ciudades_homicidios.png)
+    ![Top 5 Ciudades con Más Homicidios](https://github.com/EkCaAv/Proyecto-Mortalidad-Colombia/blob/main/assets/top-ciudades-mas-homicidios.png)
 
 #### Gráfico Circular: Top 10 Ciudades con Menor Mortalidad
 *   **Propósito:** Identificar las diez ciudades con la menor cantidad de defunciones totales registradas en 2019.
 *   **Interacción:** Al pasar el cursor sobre cada segmento del gráfico de dona, se revela el nombre de la ciudad, el porcentaje que representa y el número absoluto de muertes.
-    ![Top 10 Ciudades con Menor Número de Muertes](https://raw.githubusercontent.com/EkCaAv/Proyecto-Mortalidad-Colombia/develop/assets/images/top_10_ciudades_menor_mortalidad.png)
+    ![Top 10 Ciudades con Menor Número de Muertes](https://github.com/EkCaAv/Proyecto-Mortalidad-Colombia/blob/main/assets/top-ciudades-menos-muertes.png)
 
 #### Tabla: Principales Causas de Muerte
 *   **Propósito:** Presentar de forma clara y concisa las diez causas de muerte más frecuentes en Colombia durante 2019, incluyendo su código CIE-10 y el total de casos.
 *   **Interacción:** La tabla permite al usuario ordenar los datos por cualquiera de sus columnas y aplicar filtros nativos para buscar causas específicas.
-    ![Principales Causas de Muerte](https://raw.githubusercontent.com/EkCaAv/Proyecto-Mortalidad-Colombia/develop/assets/images/principales_causas_muerte.png) 
+    ![Principales Causas de Muerte](https://github.com/EkCaAv/Proyecto-Mortalidad-Colombia/blob/main/assets/principales-causas-muerte-codigo.png) 
 
 #### Histograma: Distribución de Muertes por Edad
 *   **Propósito:** Analizar la distribución de las defunciones según rangos de edad quinquenales, permitiendo identificar los grupos etarios con mayor incidencia de mortalidad dentro del conjunto de datos disponible.
 *   **Interacción:** Al pasar el mouse sobre cada barra, se muestra el rango de edad específico y el total de muertes correspondiente.
-    ![Distribución de Muertes por Rango de Edad](https://raw.githubusercontent.com/EkCaAv/Proyecto-Mortalidad-Colombia/develop/assets/images/distribucion_muertes_edad.png)
+    ![Distribución de Muertes por Rango de Edad](https://github.com/EkCaAv/Proyecto-Mortalidad-Colombia/blob/main/assets/distribucion-muertes-rango-edad.png)
 
 #### Gráfico de Barras Apiladas: Muertes por Sexo y Departamento
 *   **Propósito:** Comparar el total de muertes entre hombres y mujeres dentro de cada departamento, así como la proporción de muertes con sexo indeterminado. Permite analizar diferencias significativas entre géneros a nivel regional.
 *   **Interacción:** Al pasar el cursor sobre las secciones de cada barra apilada, se muestra el departamento, el sexo y el total de muertes para esa subcategoría.
-    ![Total Muertes por Sexo en Cada Departamento](https://raw.githubusercontent.com/EkCaAv/Proyecto-Mortalidad-Colombia/develop/assets/images/total_muertes_sexo_departamento.png)
+    ![Total Muertes por Sexo en Cada Departamento](https://github.com/EkCaAv/Proyecto-Mortalidad-Colombia/blob/main/assets/total-muerte-sexo-por-departamento.png)
 
 ---
 
